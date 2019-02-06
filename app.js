@@ -1,16 +1,24 @@
 /* Done in wednesday class:
 1. What is a loop?
-
 2. What is the syntax of a loop?
 for(i = 0; i < 5; i++){
-
 }
-initializing
-terminating
-incrementing
-
+initializing: start
+terminating: end
+incrementing: space between
 3. Give a few examples.
 */
+// print "HTA rocks." 3 times */
+for (i = 0; i < 3; i++)
+{
+    console.log("HTA rocks.");
+}
+
+// print even numbers */
+for (i = 0; i < 11; i+2)
+{
+    console.log(i);
+}
 
 //4. Create a loop that prints numbers from 0-10.
 
